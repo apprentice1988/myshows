@@ -4,6 +4,8 @@ Myshow::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  root 'pages#home'
+  get "/pages/video_background" => "pages#video_background"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
