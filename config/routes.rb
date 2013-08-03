@@ -6,6 +6,7 @@ Myshow::Application.routes.draw do
   # root 'welcome#index'
   root 'pages#home'
   get "/pages/video_background" => "pages#video_background"
+  get '/pages/game_with_threejs'=>"pages#games_with_threejs"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
