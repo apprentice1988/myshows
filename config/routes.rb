@@ -7,6 +7,7 @@ Myshow::Application.routes.draw do
   root 'pages#home'
   get "/pages/video_background" => "pages#video_background"
   get '/pages/game_with_threejs'=>"pages#games_with_threejs"
+  get '/pages/angular_js_experience'=>"pages#angular_js_experience"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
